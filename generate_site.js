@@ -10,7 +10,7 @@ const routes = JSON.stringify([
 
 const env = {
   ...process.env,
-  STITCH_API_KEY: "AQ.Ab8RN6JgKq6aVLkV7qo4WS0qAt2JPXmsveEZITi5Q06PjCCd7A"
+  STITCH_API_KEY: process.env.STITCH_API_KEY
 };
 
 const nodePath = path.resolve(__dirname, '.node20/node-v20.18.0-win-x64/node.exe');
